@@ -1,4 +1,4 @@
-## Make Gridstack work with Create React App based project
+## Make Gridstack work with Create React App based project (without any extra package)
 
 The fix is simple:
 
