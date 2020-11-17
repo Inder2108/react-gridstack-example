@@ -1,4 +1,8 @@
 import React, { useEffect } from "react";
+
+import { GridStack } from 'gridstack';
+import 'gridstack/dist/gridstack.css';
+
 import "./App.css";
 
 function App() {
@@ -6,7 +10,7 @@ function App() {
     // Initialize Gridstack inside useEffect so that DOM is rendered when its initialized
     // _________________________________________________
     useEffect(() => {
-        var grid = window.GridStack.init();
+        var grid = GridStack.init();
     });
     // _________________________________________________
     // _________________________________________________

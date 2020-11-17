@@ -2,14 +2,11 @@
 
 The fix is simple:
 
-### 1. Load dependencies of gridstack
-Refer index.html, where the dependencies are added from CDN links
+### 1. Install dependencies of gridstack via npm
+Refer package.json where gridstack is added as a dependency to the project
 
-### 2. Store Gridstack in a global space
-Refer index.html, where the Gridstack is stored in global window object for reference
+### 2. Import Gridstack in your component
+Refer App.js, where Gridstack is being imported using import statements
 
 ### 3. Use useEffect hook to initialize Gridstack
 Refer App.js, where the react hook "useEffect" is initializing GridStack for the DOM
-
-#### Note
-The approach used is not "The Best". You should consider referencing the Gridstack using the correct way (either by using require syntax: If your project steup allows you to use require). But for those looking for using GridStack's amazing capabilities in React, this approach works just fine.
